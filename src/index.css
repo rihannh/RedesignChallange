@@ -1,0 +1,83 @@
+/* Import font Product Sans dengan berbagai gaya dan berat */
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-Regular.ttf") format("truetype");
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-Bold.ttf") format("truetype");
+     font-weight: bold;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-Italic.ttf") format("truetype");
+     font-weight: normal;
+     font-style: italic;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-BoldItalic.ttf") format("truetype");
+     font-weight: bold;
+     font-style: italic;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-Black.ttf") format("truetype");
+     font-weight: 900;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-BlackItalic.ttf") format("truetype");
+     font-weight: 900;
+     font-style: italic;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-Light.ttf") format("truetype");
+     font-weight: 300;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-LightItalic.ttf") format("truetype");
+     font-weight: 300;
+     font-style: italic;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-Medium.ttf") format("truetype");
+     font-weight: 500;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-MediumItalic.ttf") format("truetype");
+     font-weight: 500;
+     font-style: italic;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-Thin.ttf") format("truetype");
+     font-weight: 100;
+     font-style: normal;
+}
+@font-face {
+     font-family: "Product Sans";
+     src: url("./assets/fonts/ProductSans-ThinItalic.ttf") format("truetype");
+     font-weight: 100;
+     font-style: italic;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-fixed {
+     @apply fixed z-[100] bg-white bg-opacity-70;
+     backdrop-filter: blur(5px);
+     box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
